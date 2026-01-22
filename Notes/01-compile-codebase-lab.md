@@ -34,3 +34,16 @@
 10. Run `cmake ../`
 11. Run `make`
 12. Run `./raytracer`
+
+**Docker MacOS**
+1. Clone https://github.com/ConU-CSSE/COMP371_dockerimage.git
+2. Clone https://github.com/tiperiu/COMP371_all.git
+3. cd .\COMP371_dockerimage\
+4. Open Docker Desktop application
+5. Run `.\linux\build_docker.sh`
+6. Run `.\linux\interactive_run.sh /Users/jessica_chan/Documents/GitHub/COMP371_all/COMP371_RaytracerBase/code`
+7. cd build
+8. Run `cmake ../`
+9. Run `make`
+10. Run `./raytracer`
+11. 10. Run `./raytracer ../assets/cornell_box_al.json`
